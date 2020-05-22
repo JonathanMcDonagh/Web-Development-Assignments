@@ -1,0 +1,46 @@
+body {
+	background-color: gray;
+}
+
+#container {
+	top: 5em;
+	width: 95%;
+	border-radius: 2.5%;
+	padding: 1%;
+	border: 1px solid black;
+	margin: 1em auto;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	width: 60%;
+	margin: 0 auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+thead tr th:nth-of-type(2) {
+	text-align: left;
+}
+
+th, td {
+	padding: 0.2em;
+}
+
+tbody tr:hover {
+	background-color: gray;
+}
+
+a {
+	color: grey;
+}
+
+a:hover {
+	color: black;
+}
